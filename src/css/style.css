@@ -143,8 +143,6 @@ button a span:hover{
 .img-p1 img{
     width: 500px;
 }
-
-
 .quarta-parte{
     background-color: black;
     margin-bottom: -90px;
@@ -168,4 +166,134 @@ button a span:hover{
 .direitos{
     color: #fff;
     text-align: center;
+}
+@media(max-width:768px){
+    body{
+        
+    }
+     nav ul li, header button{
+        display: none;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .primeira_parte{
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 20px;
+        align-items: center;
+    }
+    .texto h1{
+        white-space: pre-line;
+        line-height: 30px;
+        font-size: 19px;
+        text-align: center;
+        margin-left: 0;
+        margin-top: -30px;
+    }
+    .texto p{
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        margin-left:0;
+        margin-top: 10px;
+    }
+    .img-p1 img{
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        display: block;
+        height: auto;
+    }
+    section button{
+        display:block;
+        margin: 20px auto 0;
+       background-color:#3599DF;
+    }
+    section button a{
+        display: inline-block;
+        color: white;
+    }
+    section button a span{
+    color: #00fff2;
+    }
+    .textos {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    padding: 20px;
+  }
+.first-coluna{
+
+}
+
+  .third-coluna {
+    font-size: 18px;
+    white-space:pre-line;
+
+  }
+
+  .segunda-parte {
+    max-height: none;
+    padding: 40px 0;
+  }
+
+  .conteudo {
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 20px;
+    text-align: justify;
+   
+  }
+
+ 
+  .container h2 {
+    font-size: 20px;
+    white-space: normal;
+    line-height: 1.4;
+   
+  }
+
+  .container {
+    padding: 30px;
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  .pergunta {
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .redes-sociais {
+    gap: 40px;
+    padding: 20px 10px;
+    justify-content: center;
+  }
+
+  .redes-sociais i {
+    font-size: 28px;
+  }
+
+  .quarta-parte {
+    padding: 20px 0;
+    margin-bottom: 0;
+  }
+
+  .direitos p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .img-p1 img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
 }
