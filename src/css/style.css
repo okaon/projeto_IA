@@ -28,7 +28,7 @@ nav{
     padding: 0 30px;
     height: 100px;
     position: relative;
-    flex-wrap: wrap;
+ 
 
 }
 nav ul li a{
@@ -220,6 +220,8 @@ button a span:hover{
 }
 @media(max-width:768px){
     body{
+        
+       
         
     }
      nav ul li, header button{
